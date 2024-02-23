@@ -36,3 +36,11 @@ You have to do the following things installed on your computer:
 4. Click on "Run" from the main menu in the SalaryDataApplication class.
 5. The application will be accessible at:
     http://localhost:8080
+
+## ScreenShots
+
+### Main page
+![Main page](https://github.com/Nirmin96/Learning-Spring-Boot/blob/main/ScreenShots/App%20main-page.png)
+
+### Result page
+![Result page](https://github.com/Nirmin96/Learning-Spring-Boot/blob/main/ScreenShots/Result%20page.png)
