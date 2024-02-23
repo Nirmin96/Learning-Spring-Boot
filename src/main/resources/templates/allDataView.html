@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Data View</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet" />
+</head>
+<body>
+<h1>Skatteverket</h1>
+
+<!-- New form to capture user input -->
+<form th:action="@{/getRecordByTabellNrAndValue}" method="get">
+    <input type="number"  name="tabellNr" required min="29" max="42" placeholder="Table Number (29-42)" />
+    
+    <input type="number" name="value" required placeholder="Salary" />
+
+    <button type="submit">Get Record</button>
+</form>
+<!-- Link to Skatteverket website -->
+<div class="skatteverket-link">
+    <p>Teknisk beskrivning för <a href="https://www.skatteverket.se/foretag/arbetsgivare/arbetsgivaravgifterochskatteavdrag/skattetabeller/tekniskbeskrivningforskattetabeller.4.319dc1451507f2f99e86ee.html" target="_blank" rel="noopener">Skattetabeller</a>.</p>
+    <p>Please note that this project is developed independently and is not associated with any official organization.</p>
+</div>
+
+
+</body>
+</html>
